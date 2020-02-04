@@ -17,7 +17,7 @@ So, the connections are as follows.
 | CH_PD  | 3.3V  |
 | GPIO 0  | GND  |
 
-
+[![scheme](https://www.elec-cafe.com/wp-content/uploads/2015/09/ESP8266-ESP-01-Firmware-Update_Elec-Cafe.png "scheme")](https://www.elec-cafe.com/wp-content/uploads/2015/09/ESP8266-ESP-01-Firmware-Update_Elec-Cafe.png "scheme")
 ### Check the current firmware version
 To send AT commands and view the responses need to use any software serial port monitor. The baud rate of the default 115200 baud.
 Check the current firmware version can be performed by AT-command: **AT+GMR**
