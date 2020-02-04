@@ -7,15 +7,16 @@ The ESP8266 Firmware can be installed for two reasons: If you want to update the
 
 ###  Connecting via the Arduino board
 So, the connections are as follows.
-1. VCC to 3.3V
-2. GND to GND
-3. TX to TX of Arduino UNO
-4. RX to RX of Arduino UNO (through level converter)
-5. GPIO0 to GND
-6. RST to GND through Push Button
-7. CH_PD to 3.3V
 
-image
+SP8266  |  Arduino 
+ — — — — — — — — -
+     RX     |    RX
+     TX |      TX
+    GND | GND 
+    VCC | 3.3V 
+  CH_PD | 3.3V 
+ GPIO 0 | GND 
+
 
 ### Check the current firmware version
 To send AT commands and view the responses need to use any software serial port monitor. The baud rate of the default 115200 baud.
