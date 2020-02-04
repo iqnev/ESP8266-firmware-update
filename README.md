@@ -24,10 +24,10 @@ Check the current firmware version can be performed by AT-command: **AT+GMR**
 Also it is necessary to know the flash memory size of ESP module, firmware upload address depend on it size. This manual describes updated firmware of module with flash memory size 8Mbit (512KB+512KB) or 16Mbit (1024KB+1024KB), as the most common. Flash memory size can be found if send the AT-command from reset: **AT+RST**
 
 ### The tool for firmware update
-To update the firmware you must download the special tool application and the firmware itself [[1] Flash Download Tools v2.4][Flash Download Tools v2.4]  You must go to "Tools" section
+To update the firmware you must download the special tool application and the firmware itself. [[1] Flash Download Tools][Flash Download Tools]  You must go to "Tools" section
 
 ### Firmware
-The firmware can also be downloaded from the [[2] firmware ][firmware ]. You must go to “SDKs & Demos” section and download firmware ESP8266 NONOS SDK
+The firmware can also be downloaded from the [[2]firmware][firmware]. You must go to “SDKs & Demos” section and download firmware ESP8266 NONOS SDK
 
 ### Settings
 Run the application Flash Download Tools v2.4. In the opening window must correctly chose the downloaded files and setup the connection mode.
@@ -50,3 +50,6 @@ Downloadable files are located in the "bin" directory with the firmware files. F
 5. COM PORT – select the port that is connected to ESP
 6. BAUDRATE – 115200
 
+
+[Flash Download Tools]: https://www.espressif.com/en/products/hardware/esp8266ex/resources " Flash Download Tools"
+[firmware]: https://www.espressif.com/en/products/hardware/esp8266ex/resources "firmware"
