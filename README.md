@@ -24,9 +24,29 @@ Check the current firmware version can be performed by AT-command: **AT+GMR**
 Also it is necessary to know the flash memory size of ESP module, firmware upload address depend on it size. This manual describes updated firmware of module with flash memory size 8Mbit (512KB+512KB) or 16Mbit (1024KB+1024KB), as the most common. Flash memory size can be found if send the AT-command from reset: **AT+RST**
 
 ### The tool for firmware update
-To update the firmware you must download the special tool application and the firmware itself Flash Download Tools v2.4  You must go to "Tools" section
+To update the firmware you must download the special tool application and the firmware itself [[1] Flash Download Tools v2.4][Flash Download Tools v2.4]  You must go to "Tools" section
 
 ### Firmware
-The firmware can also be downloaded from the official site. You must go to “SDKs & Demos” section and download firmware ESP8266 NONOS SDK
+The firmware can also be downloaded from the [[2] firmware ][firmware ]. You must go to “SDKs & Demos” section and download firmware ESP8266 NONOS SDK
 
 ### Settings
+Run the application Flash Download Tools v2.4. In the opening window must correctly chose the downloaded files and setup the connection mode.
+Downloadable files are located in the "bin" directory with the firmware files. For each file you must specify a valid address download
+
+| Downloadable file  | Flash 8Mbit (512KB+512KB)  | Flash 16Mbit (1024KB+1024KB) |
+| ------------ | ------------ | ------------ |
+| esp_init_data_default.bin  |  0xFC000 | 0x1FC000  |
+| blank.bin  | 0xFE000  | 0x1FE000  |
+|  boot_v1.7.bin or later |0x00000   | 0x00000  |
+|  user1.1024.new.2.bin |  0x01000 | 0x01000  |
+|  user1.1024.new.2.bin |  0x81000 | 0x81000  |
+
+image
+
+1. Set the following settings:
+2. SPIAutoSet — set
+3. CrystalFreq - 26M
+4. FLASH SIZE – 8Mbit or 16Mbit depending on the size of the flash memory
+5. COM PORT – select the port that is connected to ESP
+6. BAUDRATE – 115200
+
