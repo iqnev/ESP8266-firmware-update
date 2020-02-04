@@ -8,14 +8,14 @@ The ESP8266 Firmware can be installed for two reasons: If you want to update the
 ###  Connecting via the Arduino board
 So, the connections are as follows.
 
-SP8266  |  Arduino 
- — — — — — — — — -
-     RX     |    RX
-     TX |      TX
-    GND | GND 
-    VCC | 3.3V 
-  CH_PD | 3.3V 
- GPIO 0 | GND 
+| SP8266  | Arduino  |
+| ------------ | ------------ |
+| RX  | RX  |
+|TX   |  TX |
+|  GND | GND  |
+|  VCC |  3.3V |
+| CH_PD  | 3.3V  |
+| GPIO 0  | GND  |
 
 
 ### Check the current firmware version
