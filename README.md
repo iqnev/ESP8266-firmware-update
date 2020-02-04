@@ -41,7 +41,7 @@ Downloadable files are located in the "bin" directory with the firmware files. F
 |  user1.1024.new.2.bin |  0x01000 | 0x01000  |
 |  user1.1024.new.2.bin |  0x81000 | 0x81000  |
 
-image
+[![FLASH_DOWNLOAD_TOOLS_v2.4](https://raw.githubusercontent.com/iqnev/ESP8266-firmware-update/master/flash_esp8286.JPG "FLASH_DOWNLOAD_TOOLS_v2.4")](https://raw.githubusercontent.com/iqnev/ESP8266-firmware-update/master/flash_esp8286.JPG "FLASH_DOWNLOAD_TOOLS_v2.4")
 
 1. Set the following settings:
 2. SPIAutoSet — set
